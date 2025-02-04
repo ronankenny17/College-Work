@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calender</title>
+    <link rel="stylesheet" type="text/css" href="CalenderCss.css"/>
+    <link rel="" type="text/JS" href="CalenderJS.js"/>
+    <script src="CalenderJS.js"></script>
+</head>
+<body>
+<h1>Calender</h1>
+<p>
+Enter month of the year (1-12):
+<input type="text" id="input1" oninput="daysOfMonthchecker(month); makerows()"><br>
+    Enter year
+    <input type="text" id = "txtYear" oninput="makerows()"> <button onclick="checkYear()"> check</button>
+<br>
+</p>
+<div id="para" >
+    <table id="table1">
+    </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="htmlForms.css">
+    <script src="htmlForms.js"></script>
+    <title>Title</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td class = "tableClass">Question Category</td>
+                <td class=" tableClass">
+                    <select class="inputBoxClass" style="width: 200px">
+                        <option value="0">Goods for sale</option>
+                        <option value="1">Complaints</option>
+                        <option value="2">Support</option>
+                    </select>
+                </td>
+            </tr>
+            <tr class = "tableClass">
+                <td class=" tableClass">Question</td>
+                <td>
+                    <textarea id="textArea1" class = "inputBoxClass" style="height: 300px"> </textarea>
+                </td>
+            </tr>
+            <tr class="tableClass">
+                <td class = "tableClass"> Your Name</td>
+                <td> <input id="nameInput"  type="text" class="inputBoxClass" value=""> </td>
+            </tr>
+            <tr class = "tableClass">
+                <td class = "tableClass">Your email</td>
+                <td class = "inputBoxClass"> <input id="emailInput" type="text" class="inputBoxClass" value = ""> </td>
+            </tr>
+            <tr class="tableClass">
+                <td class="tableClass"> </td>
+                <td> <button id="submitButton"  style="height:50px"  class="inputBoxClass" onclick="eventHandler()">SUBMIT</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

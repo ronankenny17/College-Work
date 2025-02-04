@@ -1,0 +1,3 @@
+C:/Users/ronan/school/A1-PT2-NGT/cmake-build-debug/CMakeFiles/A1_PT2_NGT.dir
+C:/Users/ronan/school/A1-PT2-NGT/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ronan/school/A1-PT2-NGT/cmake-build-debug/CMakeFiles/rebuild_cache.dir

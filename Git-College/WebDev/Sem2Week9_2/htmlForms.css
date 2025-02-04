@@ -1,0 +1,19 @@
+.tableClass
+{
+    border-style: inset;
+    border-color: black;
+    background-color: darkgrey;
+    border-width : 5px;
+    width: 200px;
+    vertical-align: top;
+
+}
+.inputBoxClass
+{
+    text-align:left;
+    vertical-align: top;
+    top: 5px;
+    width: 500px;
+    color: white;
+    background-color: dimgrey;
+}

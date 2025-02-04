@@ -1,0 +1,3 @@
+C:/Users/ronan/school/Adventuregame/cmake-build-debug/CMakeFiles/Adventuregame.dir
+C:/Users/ronan/school/Adventuregame/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ronan/school/Adventuregame/cmake-build-debug/CMakeFiles/rebuild_cache.dir

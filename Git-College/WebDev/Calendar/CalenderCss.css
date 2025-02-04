@@ -1,0 +1,22 @@
+table
+{
+    border-style: ridge;
+    border-color: black;
+    border-width: 10px;
+}
+.days
+{
+    border-style: ridge;
+    border-color: darkmagenta;
+    background-color: palegoldenrod;
+    top:5px;
+    right:5px;
+}
+.words
+{
+    border-style: ridge;
+    border-color: red;
+    background-color: white;
+    top:5px;
+    right:5px;
+}

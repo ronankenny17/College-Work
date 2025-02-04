@@ -1,0 +1,3 @@
+C:/Users/ronan/school/CommandLineCalendars/cmake-build-debug/CMakeFiles/CommandLineCalendars.dir
+C:/Users/ronan/school/CommandLineCalendars/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ronan/school/CommandLineCalendars/cmake-build-debug/CMakeFiles/rebuild_cache.dir
