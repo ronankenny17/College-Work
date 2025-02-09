@@ -2,8 +2,8 @@ import java.awt.*;
 
 public class Player extends Sprite2D{
 
-    private int width = 30;
-    private int height = 30;
+    //private int width = 30;
+    //private int height = 30;
 
     public Player(int x, int y, Image img) {
         super(x,y,img);

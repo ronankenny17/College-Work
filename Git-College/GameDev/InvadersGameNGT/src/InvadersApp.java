@@ -72,8 +72,6 @@ public class InvadersApp extends JFrame implements Runnable , KeyListener {
     }
 
     public void run(){
-        //System.out.println("Starting thread");
-
 
         // to run as long as needed
         while(true) {
@@ -99,11 +97,6 @@ public class InvadersApp extends JFrame implements Runnable , KeyListener {
             }
             repaint();
         }
-
-            //interrupt handling
-
-
-           // System.out.println("Thread ending");
 
     }
 
@@ -141,7 +134,6 @@ public class InvadersApp extends JFrame implements Runnable , KeyListener {
 
 
     public void paint(Graphics g) {
-        //java.awt.Toolkit.getDefaultToolkit().getScreenSize();
         // have to clear the screen after repainting each time 
         g.clearRect(0, 0,getWidth(),getHeight());
         for(int i=0;i<NUMALIENS;i++) {
@@ -150,40 +142,5 @@ public class InvadersApp extends JFrame implements Runnable , KeyListener {
         player1.paint(g);
 
     }
-
-
-
-/*
-
-    @Override
-    public void paint(Graphics g) {
-
-        // had to implement double buffering as I had issues with the framerate
-        // if I dropped the thread.sleep value lower than 120 then none of the images rendered
-        // also, all of the images flickered alot
-
-        // create an off screen buffer
-        Image offscreen = createImage(getWidth(), getHeight());
-        Graphics offG = offscreen.getGraphics();
-
-        // draw all images off screen on the buffer
-        offG.setColor(Color.black);
-        offG.fillRect(0, 0, getWidth(), getHeight());
-
-        for (Sprite2D alien : aliensArray) {
-            alien.paint(offG);
-        }
-        player1.paint(offG);
-
-        // the buffer image is then draw to the JFrame
-        g.drawImage(offscreen, 0, 0, null);
-    }
-
- */
-
-
-
-
-
 
 }

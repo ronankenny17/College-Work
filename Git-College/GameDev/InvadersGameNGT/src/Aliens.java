@@ -1,8 +1,8 @@
 import java.awt.*;
 
 public class Aliens extends Sprite2D{
-    private int width = 30;
-    private int height = 30;
+    // private int width = 30;
+    //private int height = 30;
 
 
     public Aliens(int x, int y, Image img) {
